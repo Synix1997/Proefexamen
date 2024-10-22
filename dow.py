@@ -24,7 +24,7 @@ def day_of_the_week(year: int, month: int, day: int) -> int:
 
 
 def main():
-    assert day_of_the_week(2022, 12, 1) == 4  # Thu
+    assert day_of_the_week(2022, 1, 1) == 6  # Sat
     assert day_of_the_week(2022, 12, 2) == 5  # Fri
     assert day_of_the_week(2022, 12, 3) == 6  # Sat
     assert day_of_the_week(2022, 12, 4) == 7  # Sun
