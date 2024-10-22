@@ -7,4 +7,5 @@ def calendar_year(year: int):
         print()
         print()
 
-calendar_year(2020)
+if __name__ == '__main__':
+    calendar_year(2024)
